@@ -14,6 +14,24 @@ const Header = ({children}) => {
     <main>
       {children}
     </main>
+    {/*global - without if prefixes*/}
+    <style jsx>{`
+        ul {
+          width: 100%;
+          background-color: green;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+       
+          height: 40px;
+        }
+        
+        ul li {
+           color: white;
+           margin-right: 15px;
+           list-style: none;
+        }
+    `}</style>
   </div>)
 }
 
