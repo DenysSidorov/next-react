@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-const Header = () => {
+const Header = ({children}) => {
   return (<div>
     <ul>
       <Link href={'/'}><li>Main</li></Link>
@@ -11,6 +11,9 @@ const Header = () => {
       <Link href={'/posts/info'}><li>Posts/info</li></Link>
       <Link href={'/posts/123/item/456'}><li>Posts/123/item/456</li></Link>
     </ul>
+    <main>
+      {children}
+    </main>
   </div>)
 }
 

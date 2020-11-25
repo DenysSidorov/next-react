@@ -1,3 +1,9 @@
+import Header from '../../../components/Header';
+
 export default function PostInfo() {
-  return <div>Posts/info page</div>
+  return (
+    <Header>
+      <div>Posts/info page</div>
+    </Header>
+  );
 }

@@ -1,9 +1,10 @@
 import React from 'react';
 import Head from 'next/head';
+import Header from '../components/Header';
 
 export default function About() {
   return (
-    <React.Fragment>
+    <Header>
       <Head>
         <meta charSet="UTF-8"/>
         <title>About page</title>
@@ -14,6 +15,6 @@ export default function About() {
 
       <div>About page</div>
 
-    </React.Fragment>
+    </Header>
   )
 }

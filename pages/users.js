@@ -11,12 +11,11 @@ console.log('Router', Router);
   }
 
   return (
-    <div>
-     <Header/>
+    <Header>
       <div>
         Users page
       </div>
       <div onClick={clickNavHandler}>Program navigation, Click Me</div>
-    </div>
+    </Header>
    )
 }

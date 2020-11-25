@@ -1,3 +1,8 @@
+import Header from '../../components/Header';
+
 export default function Posts() {
-  return <div>Posts page</div>
+  return (<Header>
+      <div>Posts page</div>
+    </Header>
+  );
 }
