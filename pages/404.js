@@ -1,6 +1,8 @@
+import styles from '../styles/errorPage.module.scss';
+
 export default function ErrorPage() {
   return(
-    <div>
+    <div className={styles.error}>
       Error page:(
     </div>
   )
