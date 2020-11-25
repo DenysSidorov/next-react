@@ -1,12 +1,11 @@
 // import App from 'next/app'
-
+import '../styles/main.css';
 function MyApp({ Component, pageProps }) {
   return (
   <>
     <Component {...pageProps} />
     <style jsx global>{`
     body{
-      background-color: #e6e3da;
       font-family: 'Nerko One', cursive;    
     }
     `}
