@@ -37,7 +37,8 @@ export default function Users({users}) {
 }
 
 
-export async function getStaticProps() {
+export async function getStaticProps(ctx) {
+  console.log('[][][][[][][][][]', ctx);
   const res = await fetch('http://localhost:4000/users');
   const users = await res.json();
   return {
